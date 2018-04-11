@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Narumol\\Desktop\\New folder2\\VendorMachine\\usbSerialExamples\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
+        "source": "C:\\Users\\Narumol\\Desktop\\New folder2\\VendorMachine\\usbSerialExamples\\src\\main\\res\\xml\\device_filter.xml"
+    },
+    {
+        "merged": "D:\\workspace\\AndroidStudioProjects\\VendorMachine\\usbSerialExamples\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
+        "source": "D:\\workspace\\AndroidStudioProjects\\VendorMachine\\usbSerialExamples\\src\\main\\res\\xml\\device_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\MongMX\\Desktop\\vending\\New folder2\\VendorMachine\\usbSerialExamples\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
+        "source": "C:\\Users\\MongMX\\Desktop\\vending\\New folder2\\VendorMachine\\usbSerialExamples\\src\\main\\res\\xml\\device_filter.xml"
+    }
+]

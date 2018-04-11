@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="คิวของคุณคือ"
+        android:id="@+id/textView14"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:height="60dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="คิวที่ 000"
+        android:id="@+id/textViewQueueNumber"
+        android:textSize="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="กรุณารอรับสลิปด้วยคะ"
+        android:id="@+id/textView11"
+        android:textSize="40dp"
+        android:height="60dp"
+        android:gravity="center|bottom"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+</LinearLayout>

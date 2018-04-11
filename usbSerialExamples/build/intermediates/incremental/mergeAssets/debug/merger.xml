@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="0.2.0-SNAPSHOT"><source path="D:\Andriod\workspace\VendorMachine\usbSerialExamples\build\intermediates\exploded-aar\com.hoho.android\usbSerialForAndroid\0.2.0-SNAPSHOT\assets"/></dataSet><dataSet config="main"><source path="D:\Andriod\workspace\VendorMachine\usbSerialExamples\src\main\assets"/></dataSet><dataSet config="debug"><source path="D:\Andriod\workspace\VendorMachine\usbSerialExamples\src\debug\assets"/></dataSet></merger>

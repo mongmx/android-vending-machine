@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Vending Machine</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+    <string name="action_queue">ดูคิวสั่งซื้อ</string>
+    <string name="action_main">หน้าสั่งซื้อ</string>
+    <string name="action_logout">ออกจากระบบ</string>
+
+    <string name="api_endpoint">http://communityshop.ml/api</string>
+    <string name="title_activity_queue">แสดงคิวทั้งหมด</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

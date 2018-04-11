@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mongmx.vendingmachine.QueueActivity"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="คิว"
+            android:id="@+id/textView20"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/queueCount"
+            android:layout_toEndOf="@+id/queueCount" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/queueCount"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView7"
+            android:layout_toEndOf="@+id/textView7"
+            android:width="100dp"
+            android:gravity="right"
+            android:paddingEnd="10dp" />
+
+        <TextView
+            android:text="@string/title_activity_queue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginBottom="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="คิว"
+            android:id="@+id/textView25"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="รายการ"
+            android:id="@+id/textView26"
+            android:layout_toRightOf="@+id/textView25"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="จำนวน"
+            android:id="@+id/textView27"
+            android:layout_toRightOf="@+id/textView26"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ลบคิวนี้"
+            android:id="@+id/textView28"
+            android:layout_toRightOf="@+id/textView27"
+            android:background="@drawable/back" />
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewQueue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp" />
+
+</RelativeLayout>

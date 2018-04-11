@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.mongmx.vendingmachine.PaymentActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/pink">
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/listViewPayOrder"
+                android:layout_below="@+id/textViewPayOrder"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:layout_marginBottom="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x"
+                android:id="@+id/btn_insert_coin"
+                android:layout_alignParentBottom="false"
+                android:visibility="visible"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:background="@color/blue"
+                android:textColor="@color/blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="สินค้า 1 รายการ 2 ชิ้น"
+                android:id="@+id/textViewPayOrder"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="ย้อนกลับ"
+                android:id="@+id/btnBack"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="btnBack"
+                android:background="#ff7070"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/green">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/textViewCoinCount"
+                android:textSize="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:layout_marginTop="80dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="จำนวนเงินคงเหลือ"
+                android:id="@+id/textView12"
+                android:textSize="50dp"
+                android:layout_centerHorizontal="true"
+                android:height="80dp"
+                android:gravity="bottom"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="บาท"
+                android:id="@+id/textView13"
+                android:layout_centerHorizontal="true"
+                android:textSize="50dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="350dp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="ชำระเงินสด"
+                android:id="@+id/btnCash"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentBottom="true"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="กรุณาหยอดเหรียญ"
+        android:id="@+id/textViewPayAction"
+        android:layout_alignParentBottom="true"
+        android:textSize="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/payment_title"
+        android:textSize="8dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="#3f000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="กรุณารอสลิป เพื่อจ่ายเงินและรับสินค้า"
+        android:id="@+id/textViewPayActionCash"
+        android:layout_alignParentBottom="true"
+        android:textSize="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

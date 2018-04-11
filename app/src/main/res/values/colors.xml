@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="blue" type="color">#2962FF</item>
+    <item name="pink" type="color">#2962FF</item>
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="green" type="color">#4CAF50</item>
+
+
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/pink</item>
+        <item>@color/white</item>
+        <item>@color/green</item>
+    </integer-array>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
